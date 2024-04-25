@@ -2,189 +2,221 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="navbar">
-            <div class="nav-logo border">
+
+            <div class="nav_logo border">
                 <div class="logo"></div>
             </div>
 
-            <div class="nav-address border">
-                <P class="add-first">Deliver to</P>
-                <div class="add-icon">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p class="add-sec">Pakistan</p>
+            <div class="nav_address border">
+                <div class="del_to">
+                    <p>Deliver to</p>
+                </div>
+                <div class="add_icon">
+                    <i class="fa-solid fa-location-dot icon1"></i>
+                    <p class="pak">Pakistan</p>
                 </div>
             </div>
 
-            <div class="nav-search">
-                <select class="search-select">
-                    <option>All</option>
+            <div class="nav_search orange">
+                <select class="search_all">
+                    <option >All</option>
                 </select>
-                <input placeholder="Search Amazon" class="search-input">
-                <div class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Amazon" class="search_input">
+                <div class="search_icon">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
             </div>
 
-            <div class="nav-signin border">
-                <p><span></span>Hello, sign in</span></p>
-                <p class="nav-sec">Accounts & Lists</p>
+            <div class="nav_signin border">
+                <p class="signin">Hello, sign in</p>
+                <p class="account">Account & Lists</p>
             </div>
 
-            <div class="nav-signin border">
-                <p><span></span>Returns</span></p>
-                <p class="nav-sec">& Orders</p>
+            <div class="nav_order border">
+                <p class="ret">Returns</p>
+                <p class="ord">& Orders</p>
             </div>
 
             <div class="nav_cart border">
-                <i class="fa-solid fa-cart-shopping"></i>
-                Cart
+                <div class="cart_icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="cart">Cart</div>
             </div>
         </div>
 
-        <div class="panel">
-            <div class="panel_all">
-            <i class="fa-solid fa-bars"></i>
-            All
+        <div class="panel ">
+
+            <div class="panel_all border2">
+                <div class="menu_icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="all">All</div>
             </div>
 
-            <div class="panel_options">
-                <p>Today's Deals</p>
-                <p>Customer Service</p>
-                <p>Registry</p>
-                <p>Gift Cards</p>
-                <p>Sell</p>
+            <div class="panel_option1 option border2">
+                Today's Deals
+            </div>
+            <div class="panel_option2 option border2">
+                Customer Service
+            </div>
+            <div class="panel_option3 option border2">
+                Registry
+            </div>
+            <div class="panel_option4 option border2">
+                Gift Cards
+            </div>
+            <div class="panel_option5 option border2">
+                Sell
             </div>
         </div>
+
     </header>
+
     <div class="hero_section">
-        <div class="hero_msg">
-            <p>You are on amazon.com.You can also shop on Amazon Pakistan for millions of product with fast local delivery. <a href="#">Click here to go to amazon.in</a></p>
-        </div>
+        <div class="bg_img"></div>
     </div>
 
     <div class="shop_section">
+
         <div class="box">
             <div class="box_content">
-                <h2>Clothes</h1>
-                <div class="box_img" style="background-image: url('box1_image.jpg');"></div>
-                <p>See more</p> 
+                <h1>Deals in PCs</h1>
+                <div class="box_img" style="background-image: url('./assets/img/box1.jpg');"></div>
+                <a href="#">See more</a>
             </div>
         </div>
+
         <div class="box">
             <div class="box_content">
-                <h2>Health & Personal Care</h1>
-                <div class="box_img" style="background-image: url('box2_image.jpg');"></div>
-                <p>See more</p> 
+                <h1>Gifts for every Mom</h1>
+                <div class="box_img" style="background-image: url('./assets/img/box2.jpg');"></div>
+                <a href="#">Shop gifts</a>
             </div>
         </div>
+
         <div class="box">
             <div class="box_content">
-                <h2>Furniture</h1>
-                <div class="box_img" style="background-image: url('box3_image.jpg');"></div>
-                <p>See more</p> 
+                <h1>Player's paradise starts here</h1>
+                <div class="box_img" style="background-image: url('./assets/img/box3.jpg');"></div>
+                <a href="#">Shop video games</a>
             </div>
         </div>
+
         <div class="box">
             <div class="box_content">
-                <h2>Electronics</h1>
-                <div class="box_img" style="background-image: url('box4_image.jpg');"></div>
-                <p>See more</p> 
+                <h1>Beauty steals under $25</h1>
+                <div class="box_img" style="background-image: url('./assets/img/box4.jpg');"></div>
+                <a href="#">Shop now</a>
             </div>
         </div>
+
+        <div class="bigbox">
+            <div class="bigbox_content">
+                <h1>Kitchen Accessories</h1>
+                <div class="bigbox_img">
+                    <div class="bigbox_img1"></div>
+                    <div class="bigbox_img2"></div>
+                    <div class="bigbox_img3"></div>
+                    <div class="bigbox_img4"></div>
+                    <div class="bigbox_img5"></div>
+                    <div class="bigbox_img6"></div>
+                </div>
+            </div>
+        </div>
+
         <div class="box">
             <div class="box_content">
-                <h2>Beauty picks</h1>
-                <div class="box_img" style="background-image: url('box5_image.jpg');"></div>
-                <p>See more</p> 
+                <h1>Creating business solutions</h1>
+                <div class="box_img" style="background-image: url('./assets/img/box5.jpg');"></div>
+                <a href="#">See more software products</a>
             </div>
         </div>
+
         <div class="box">
             <div class="box_content">
-                <h2>Pet Care</h1>
-                <div class="box_img" style="background-image: url('box6_image.jpg');"></div>
-                <p>See more</p> 
+                <h1>A whole new way to work</h1>
+                <div class="box_img" style="background-image: url('./assets/img/box6.jpg');"></div>
+                <a href="#">Shop personal computers</a>
             </div>
         </div>
+
         <div class="box">
             <div class="box_content">
-                <h2>New Arrival in Toys</h1>
-                <div class="box_img" style="background-image: url('box7_image.jpg');"></div>
-                <p>See more</p> 
+                <h1>Personal Care under $25</h1>
+                <div class="box_img" style="background-image: url('./assets/img/box7.jpg');"></div>
+                <a href="#">See more</a>
             </div>
         </div>
+
         <div class="box">
             <div class="box_content">
-                <h2>Discover Fashion Trends</h1>
-                <div class="box_img" style="background-image: url('box8_image.jpg');"></div>
-                <p>See more</p> 
+                <h1>Shop activity trackers and smartwatches</h1>
+                <div class="box_img" style="background-image: url('./assets/img/box8.jpg');"></div>
+                <a href="#">Shop now</a>
             </div>
         </div>
+
     </div>
 
     <footer>
         <div class="foot_panel1">
-            <p>Back to top</p>
+            <a href="#">Back to top</a>
         </div>
 
         <div class="foot_panel2">
-            <ul>
-                <p>Get to Know Us</p>
-                <a href="#">Careers</a>
-                <a href="#">Blog</a>
-                <a href="#">About Amazon</a>
-                <a href="#">Investor Relations</a>
-                <a href="#">Amazon Devices</a>
-                <a href="#">Amazon Science</a>
-            </ul>
-            <ul>
-                <p>Get to Know Us</p>
-                <a href="#">Careers</a>
-                <a href="#">Blog</a>
-                <a href="#">About Amazon</a>
-                <a href="#">Investor Relations</a>
-                <a href="#">Amazon Devices</a>
-                <a href="#">Amazon Science</a>
-            </ul>
-            <ul>
-                <p>Get to Know Us</p>
-                <a href="#">Careers</a>
-                <a href="#">Blog</a>
-                <a href="#">About Amazon</a>
-                <a href="#">Investor Relations</a>
-                <a href="#">Amazon Devices</a>
-                <a href="#">Amazon Science</a>
-            </ul>
-            <ul>
-                <p>Get to Know Us</p>
-                <a href="#">Careers</a>
-                <a href="#">Blog</a>
-                <a href="#">About Amazon</a>
-                <a href="#">Investor Relations</a>
-                <a href="#">Amazon Devices</a>
-                <a href="#">Amazon Science</a>
-            </ul>
+            <div class="footer_items">
+                    <p>Get to Know Us</p>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Amazon</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Amazon Devices</a>
+                    <a href="#">Amazon Science</a>
+            </div>
+            <div class="footer_items">
+                    <p>Make Money with Us</p>
+                    <a href="#">Sell products on Amazon</a>
+                    <a href="#">Sell on Amazon Business</a>
+                    <a href="#">Sell apps on Amazon</a>
+                    <a href="#">Become an Affiliate</a>
+                    <a href="#">Advertise Your Products</a>
+                    <a href="#">Self-Publish with Us</a>
+                    <a href="#">Host an Amazon Hub</a>
+            </div>
+            <div class="footer_items">
+                    <p>Amazon Payment Products</p>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Amazon</a>
+            </div>
+            <div class="footer_items">
+                    <p>Let Us Help You</p>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Amazon</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Amazon Devices</a>
+                    <a href="#">Amazon Science</a>
+            </div>
         </div>
         <div class="foot_panel3">
-            <div class="logo"></div>
+            <div class="foot_logo"></div>
         </div>
+
         <div class="foot_panel4">
-            <div class="pages">
-                <a href="#">Conditions of Use</a>
-                <a href="#">Privacy Notice</a>
-                <a href="#">Your Ads Privacy Choices</a>
-            </div>
-            <div class="copyright">
-                © 1996-2024, Amazon.com, Inc. or its affiliates
-            </div>
+            <p>Conditions of Use Privacy Notice Your Ads Privacy Choices</p>
+            <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
         </div>
     </footer>
+    
 </body>
 </html>
